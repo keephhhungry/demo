@@ -1,4 +1,4 @@
-package builderpattern;
+package creation.builder;
 
 public class Builder {
 

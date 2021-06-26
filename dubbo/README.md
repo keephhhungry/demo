@@ -30,8 +30,10 @@ utils文件夹中的文件与本工程中的代码无关，里面是zookeeper压
 
 步骤2：启动该项目的ProviderApplication和ConsumerApplication(先启动服务提供者再启动消费者)
 
-步骤3：cmd打开控制台，切换到utils的目录下，输入下面一行的命令(在有配置jdk环境变量的情况)
+步骤3：cmd打开控制台，切换到utils的目录下，输入下面一行的命令(在有配置jdk环境变量的情况)。
 java -jar dubbo-admin-0.0.1-SNAPSHOT.jar 
+
+也可以从git地址https://github.com/apache/dubbo-admin/tree/master上拉取代码自行编译
 
 打开浏览器访问地址，默认账号密码都是root，点击服务治理可以看到注册上来的服务提供者和消费者
 http://localhost:7001/

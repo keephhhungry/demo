@@ -3,7 +3,7 @@ package creation.singleton;
 /**
  * @ahthor : cxyxh
  * @date : 2020/12/13 20:54
- * @describetion : 恶汉式
+ * @describetion : 饿汉式
  *
  * 优点：由于使用了static关键字，保证了在引用这个变量时，关于这个变量的所以写入操作都完成，所以保证了JVM层面的线程安全
  *
